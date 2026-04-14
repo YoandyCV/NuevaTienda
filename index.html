@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Menú lateral -->
+  <!-- Menú lateral (INTACTO) -->
   <aside class="sidebar">
     <div class="sidebar-content">
       <div class="sidebar-header">
@@ -45,16 +45,31 @@
 
   <!-- Contenido principal -->
   <main class="main-content">
-    <header class="main-header">
-      <div class="header-badge">✨ Bienvenido</div>
-      <h1>📲 <span>Tienda de Apps</span> para Electrónicos</h1>
-      <p>Herramientas, utilidades y software para tu taller y día a día</p>
-      <div class="header-stats">
-        <span>⚡ Descargas rápidas</span>
-        <span>🔒 Seguro y confiable</span>
-        <span>🆓 Siempre gratis</span>
+    <!-- ENCABEZADO REDISEÑADO - OCUPA TODO EL ANCHO -->
+    <div class="hero-section">
+      <div class="hero-badge">✨ Bienvenido a tu tienda de confianza</div>
+      <h1 class="hero-title">
+        <span class="hero-icon">📲</span>
+        <span>Tienda de Apps para Electrónicos</span>
+      </h1>
+      <p class="hero-description">
+        Herramientas, utilidades y software especializado para tu taller y día a día
+      </p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-icon">⚡</span>
+          <span>Descargas rápidas</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-icon">🔒</span>
+          <span>Seguro y confiable</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-icon">🆓</span>
+          <span>Siempre gratis</span>
+        </div>
       </div>
-    </header>
+    </div>
 
     <div class="apps-grid" id="appsContainer">
       <div class="loader">Cargando aplicaciones...</div>
